@@ -5,42 +5,43 @@ Criado: 12/04/2022
 """
 
 print("")
-print(" Um homem precisa atravessar um rio com um barco que possui capacidade ")
-print(" de transportar apenas ele mesmo e mais uma de suas três cargas, que são: ")
-print(" um lobo, um bode e uma caixa de alfafa. ")
-print(" Indique as ações necessárias para que o homem consiga atravessar")
-print(" o rio sem perder suas cargas. ")
+print(" Olá, Meu nome é Everton yan, tenho 23 anos, sou bahiano, resido em vitoria da conquista.")
+print(" Acordo ás 06:10, ás 06:50 pego o onibus para ir ao trabalho, ás 19:40 chego em casa.")
+print(" Das 21:00hrs meu robin é minha impressora 3d e games eletronicos, por volta de 23:00 vou dormir.")
 print("")
 
-print (" Lobo = 1")
-print (" Bode = 2")
-print (" Alfafa = 3")
+print(" ------ INICANDO A CONVERSAR ------ ")
 print("")
-
-print(" Qual será ordem correta para que joão consiga atravesar")
-print(" o rio sem que o lobo nâo coma o bode, é o bode não coma a alfafa.")
-viagem1 = int(input(" Digite aqui a opção: "))
-if viagem1 == 1:
+print(">>> Olá, tudo bem?")
+status = str(input(">>>  "))
+if status == "bem":
+        print(">>> que bom!")
+if status == "sim":
+        print(">>> que bom!")
+if status == "estou bem":
+        print(">>> que bom!")
+if status == "estou otimo":
+        print(">>> que bom!")
+        print("")     
+nome = str(input(">>> Qual seu nome? "))
+print(">>> Muito prazer" ,nome)
+print("")
+print(">>> Me chamo Everton yan, tenho 23 anos, sou de vitoria da conquista - bahia")
+print("")
+idade = int(input( ">>> Qual sua idade? "))
+if idade <= 18:
     print("")
-    
-    print(" Está correto, ")
-    print(" Quem será o proximo a ser levado por seu joão? ")
-elif viagem1 != 1:
-    print(" Tente denovo ")
-viagem2 = int(input(" Digite aqui a opção: "))   
-if viagem2 == 3:
+    print(">>> Um jovem Rapaz!")
+elif idade >=19:
     print("")
-    
-    print(" Está correto, ")
-    print(" Estamos quase lá, quem seu joão devera levar dessa vez?")
-elif viagem2 != 3:
-    print(" Tente denovo ")    
-viagem3 = int(input(" Digite aqui a opção: "))   
-if viagem3 == 2:
+    print(">>> A fase aonde filho chora e mãe não ver")
     print("")
-    
-    print(" Está correto, ")
-    print(" Voce conseguiu, seu joão levou todos para o outro lado do rio.")
-elif viagem3 != 2:
-    print(" Tente denovo ")  
-
+print(">>> Oque voce faz nas horas vagas?")
+print("")
+robin = str(input(">>>   "))
+print("")
+print(">>> Legal, muito interessante.")
+print("")
+print(">>> Nas minhas horas vagas, mecho bastate em minha impressora 3D, faço action figures e estatuas de pessoas reais, gosto bastantes de jogos eletronicos")
+print(">>>" ,nome , "Foi um prazer te conhecer, espero que nos encotramos mais vezes, até mais.")
+bye = str(input(""))
